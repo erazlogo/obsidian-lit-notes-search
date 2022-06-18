@@ -4,7 +4,7 @@ This [Dataview](https://github.com/blacksmithgu/obsidian-dataview) script provid
 
 View a [demonstration](https://github.com/erazlogo/obsidian-lit-notes-search#demonstration) below.
 
-It is a version of a more elaborate script that I use to search my historical research notes (bascially "atomic" literature notes), incorporated in my [starter vault for historians](https://github.com/erazlogo/obsidian-history-vault). 
+This is a version of a more elaborate script that I use to search my own research notes, incorporated in my [starter vault for historians](https://github.com/erazlogo/obsidian-history-vault). 
 
 ## Search Features
 
@@ -17,7 +17,7 @@ It is a version of a more elaborate script that I use to search my historical re
 
 Features coming soon(ish): 
 - search by multiple tags (currently you can only search by one tag)
-- opearators for date search (< > etc)
+- opearators for date search (< > etc; currently you can only search for an exact date)
 - maybe `OR` search for text fields
 
 ## Installation
