@@ -6,12 +6,12 @@ It is a version of a more elaborate script that I use to search my historical re
 
 ## Search Features
 
-`Keyword` finds text in the entire note text + note title.
-`Note-title` finds text in the file name of your literature note (usually your source citekey).
-For text fields, this is a case-insensitive phrase search. 
-Enter dates as YYYY-MM-DD. 
-Enter tag as `#tag`.  
-Enter exact field title and asc/desc to change sort order.
+- `Keyword` finds text in the entire note text + note title.
+- `Note-title` finds text in the file name of your literature note (usually your source citekey).
+- For text fields, this is a case-insensitive phrase search. 
+- Enter dates as YYYY-MM-DD. 
+- Enter tag as `#tag`.  
+- Enter exact field title and asc/desc to change sort order.
 
 Features coming soon(ish): 
 - search by multiple tags (currently you can only search by one tag)
