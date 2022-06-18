@@ -1,6 +1,6 @@
 
 
-This script provides a library-catalog interface to search literature notes, i.e. annotations imported from PDF files via a plugin, for example, [Zotero Integration](https://github.com/mgmeyers/obsidian-zotero-integration). See a [demonstration](https://github.com/erazlogo/obsidian-lit-notes-search#demonstration) below.
+This script provides a library-catalog interface to search literature notes, i.e. source metadata and PDF annotations imported via a plugin, for example, [Zotero Integration](https://github.com/mgmeyers/obsidian-zotero-integration). See a [demonstration](https://github.com/erazlogo/obsidian-lit-notes-search#demonstration) below.
 
 It is a version of a more elaborate script that I use to search my historical research notes (bascially "atomic" literature notes), incorporated in my [starter vault for historians](https://github.com/erazlogo/obsidian-history-vault). If you are using atomic literatur notes or doing archival research, check it out.
 
@@ -22,7 +22,8 @@ Features coming soon(ish):
 
 Necessary plugins and settings in Obsidian:
 - Live Preview: On
-- Dataview (Community plugins; Settings: Javascript Queries - On, Automatic View Refreshing - On)
+- Dataview (Community plugins; Settings: Enable Javascript Queries - On, Automatic View Refreshing - On)
+- A plugin or script to import your source metadata from a reference manager or bibtex file
 
 Your literature notes should reside in a separate folder in your vault.
 Place files `search.md` and `view.js` in any folder in your vault outside of your literature notes folder. Search.md has search fields where you will enter search terms and calls the main script from `view.js`. The main script needs to be in a separate file because it is too long to work with Live Preview.
