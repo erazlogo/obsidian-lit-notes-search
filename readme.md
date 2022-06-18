@@ -2,7 +2,7 @@
 
 This script provides a library-catalog interface to search literature notes, i.e. annotations imported from PDF files via a plugin, for example, [Zotero Integration](https://github.com/mgmeyers/obsidian-zotero-integration). See a [demonstration](https://github.com/erazlogo/obsidian-lit-notes-search#demonstration) below.
 
-It is a version of a more elaborate script that I use to search my historical research notes (bascially "atomic" literature notes), incorporated in my [starter vault for historians](https://github.com/erazlogo/obsidian-history-vault). If you are doing archival research, check it out.
+It is a version of a more elaborate script that I use to search my historical research notes (bascially "atomic" literature notes), incorporated in my [starter vault for historians](https://github.com/erazlogo/obsidian-history-vault). If you are using atomic literatur notes or doing archival research, check it out.
 
 ## Search Features
 
