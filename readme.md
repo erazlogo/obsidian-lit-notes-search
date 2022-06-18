@@ -2,7 +2,7 @@
 
 This [Dataview](https://github.com/blacksmithgu/obsidian-dataview) script provides a library-catalog interface in [Obdisian](https://obsidian.md/) to search literature notes, i.e. source metadata and PDF annotations imported via a plugin, for example, [Zotero Integration](https://github.com/mgmeyers/obsidian-zotero-integration). 
 
-See a [demonstration](https://github.com/erazlogo/obsidian-lit-notes-search#demonstration) below.
+View a [demonstration](https://github.com/erazlogo/obsidian-lit-notes-search#demonstration) below.
 
 It is a version of a more elaborate script that I use to search my historical research notes (bascially "atomic" literature notes), incorporated in my [starter vault for historians](https://github.com/erazlogo/obsidian-history-vault). 
 
