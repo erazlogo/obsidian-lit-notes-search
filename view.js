@@ -1,6 +1,6 @@
 const current = dv.current();
 const cdate = new Date(dv.current().date).getTime();
-const searchterm = dv.current().tag === null ? '"your-notes-folder"' : '"01 notes" and '+dv.current().tag;
+const searchterm = dv.current().tag === null ? '"your-notes-folder"' : '"your-notes-folder" and '+dv.current().tag;
 
 if (current.keyword || current.author || current.title || current.publication || current.date || current["note-title"] || current.comment || current.tag) {
 
