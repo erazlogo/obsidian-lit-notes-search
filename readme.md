@@ -12,7 +12,7 @@ This is a version of a more elaborate script that I use to search my own researc
 - `note-title` finds text in the file name of your literature note (usually your source citekey).
 - `author`, `title`, and `publication` find content in fields that are also links: searching for `marx` in `author` will find a note with `author:: [[Marx, Karl]]`.
 - For text fields, this is a case-insensitive phrase search. 
-- Enter dates as YYYY-MM-DD. 
+- Enter dates as `YYYY-MM-DD`. 
 - Enter tag as `#tag`.  
 - Enter exact field title and asc/desc to change sort order.
 
