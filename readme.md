@@ -8,8 +8,9 @@ This is a version of a more elaborate script that I use to search my own researc
 
 ## Search Features
 
-- `Keyword` finds text in the entire note text + note title.
-- `Note-title` finds text in the file name of your literature note (usually your source citekey).
+- `keyword` finds text in the entire note text + note title.
+- `note-title` finds text in the file name of your literature note (usually your source citekey).
+- `author`, `title`, `publication`, and `keyword` find content in links: `marx` will find `[[Marx, Karl]]` in `author`.
 - For text fields, this is a case-insensitive phrase search. 
 - Enter dates as YYYY-MM-DD. 
 - Enter tag as `#tag`.  
