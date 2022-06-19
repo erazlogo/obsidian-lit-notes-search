@@ -5,9 +5,9 @@ const searchterm = dv.current().tag === null ? '"your-notes-folder"' : '"your-no
 if (current.keyword || current.author || current.title || current.publication || current.date || current["note-title"] || current.comment || current.tag) {
 
     function passes(page) {
-        return (!current.author || (page.author && page.author.toLowerCase().includes(current.author.toLowerCase())))
-            && (!current.title || (page.title && page.title.toLowerCase().includes(current.title.toLowerCase())))
-            && (!current.publication || (page.publication && page.publication.toLowerCase().includes(current.publication.toLowerCase())))
+        return (!current.author || (page.author && page.author.toString().toLowerCase().includes(current.author.toLowerCase())))
+            && (!current.title || (page.title && page.title.toString().toLowerCase().includes(current.title.toLowerCase())))
+            && (!current.publication || (page.publication && page.publication.toString().toLowerCase().includes(current.publication.toLowerCase())))
 	        && (!current.date || (page.date && new Date(page.date).getTime()===cdate))
             && (!current["note-title"] || (page.file.name && page.file.name.toLowerCase().includes(current["note-title"].toLowerCase())))
             && (!current.comment || (page.comment && page.comment.toLowerCase().includes(current.comment.toLowerCase())))
