@@ -51,7 +51,7 @@ if (current.keyword || current.author || current.title || current.publication ||
     );
 
     dv.table(
-        ["Note", "Author", "Title", "Publication", "Date", "Comment"],
+        ["Note Title", "Author", "Title", "Publication", "Date", "Comment"],
             pages
             .filter(keyword)
             .map(p => [
