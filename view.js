@@ -1,5 +1,6 @@
 const current = dv.current();
 const cdate = new Date(dv.current().date).getTime();
+const cdateop = !dv.current().date ? "" : (dv.current().date.toString().includes("<") ? "<" : (dv.current().date.toString().includes(">") ? ">" : "==="));
 const searchterm = dv.current().tag === null ? '"your-notes-folder"' : '"your-notes-folder" and '+dv.current().tag;
 
 if (current.keyword || current.author || current.title || current.publication || current.date || current["note-title"] || current.comment || current.tag) {
@@ -8,7 +9,7 @@ if (current.keyword || current.author || current.title || current.publication ||
         return (!current.author || (page.author && page.author.toString().toLowerCase().includes(current.author.toLowerCase())))
             && (!current.title || (page.title && page.title.toString().toLowerCase().includes(current.title.toLowerCase())))
             && (!current.publication || (page.publication && page.publication.toString().toLowerCase().includes(current.publication.toLowerCase())))
-	        && (!current.date || (page.date && new Date(page.date).getTime()===cdate))
+            && (!current.date || (page.date && eval(new Date(page.date).getTime() + cdateop + cdate)))
             && (!current["note-title"] || (page.file.name && page.file.name.toLowerCase().includes(current["note-title"].toLowerCase())))
             && (!current.comment || (page.comment && page.comment.toLowerCase().includes(current.comment.toLowerCase())))
             ;
