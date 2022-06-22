@@ -32,7 +32,7 @@ if (current.keyword || current.author || current.title || current.publication ||
     }
 
     const pages = await Promise.all(
-        dv.pages('"01 notes"')
+        dv.pages('"your-literature-notes-folder"')
         .where(passes)
         .sort(p => p[current.sortby], current.sortorder)
         .map(page => new Promise(async (resolve, reject) => {

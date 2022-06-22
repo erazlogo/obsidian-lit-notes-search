@@ -28,9 +28,9 @@ Place files `search.md` and `view.js` in any folder in your vault outside of you
 
 You will need to adapt the scripts to your file structure:
 - search.md 
-    - enter path to view.js instead of `your-folder/your-subfolder`
+    - enter path in your vault to view.js instead of `your-folder/your-subfolder`. 
 - view.js 
-    - enter the path to your literature notes folder instead of `your-literature-folder`
+    - enter the path to your literature notes folder instead of `your-literature-notes-folder`
     - make sure you use the search fields in the script (author, title, publication, date, comment) and rename field names in the script to match your own field names
 
 ## Demonstration
