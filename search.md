@@ -5,6 +5,9 @@ title::
 publication:: 
 date:: 
 
+note-created:: 
+note-modified:: 
+
 note-title:: 
 comment:: 
 tags:: 
@@ -21,4 +24,4 @@ For text fields, this is a case-insensitive phrase search.
 Enter dates as `YYYY-MM-DD`, `<YYYY-MM-DD` and `>YYYY-MM-DD`.
 Enter tags as `#tag1 #tag2`.
 Enter exact field title and `asc/desc` to sort by field. 
-Leave sort fields blank to sort by `note-title, desc`.
+Leave sort fields blank to sort by `author, desc`.
