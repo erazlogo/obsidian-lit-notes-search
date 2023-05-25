@@ -40,7 +40,7 @@ if (current.keyword || current.author || current.title || current.publication ||
     const pages = await Promise.all(
         dv.pages('"your-literature-notes-folder"')
         .where(passes)
-        .sort(p => p[current.sortby], current.sortorder)
+        .sort(p => ({ "note-created": p.file.ctime, "note-modified": p.file.mtime, "note-title": p.file.name }[current.sortby] ?? p[current.sortby]), current.sortorder)
         .map(page => new Promise(async (resolve, reject) => {
             const content = await dv.io.load(page.file.path);
             resolve({
